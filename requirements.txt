@@ -1,0 +1,9 @@
+
+opencv-python
+numpy
+astral
+requests
+schedule
+onvif-zeep
+openai
+python-dotenv
