@@ -1,9 +1,43 @@
-# ignore environment file
+# Environment
 .env
+.env.*
+!.env.example
 
-# Python virtualenv
-venv/
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
+# Virtual Environment
+venv/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System Files
 .DS_Store
+Thumbs.db

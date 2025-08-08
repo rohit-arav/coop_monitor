@@ -1,9 +1,19 @@
+# Core dependencies
+opencv-python==4.9.0.80
+numpy==1.26.4
+astral==4.2.0
+requests==2.32.3
+schedule==1.2.1
+onvif-zeep==1.2.8
+openai==0.28.0
+python-dotenv==1.1.0
 
-opencv-python
-numpy
-astral
-requests
-schedule
-onvif-zeep
-openai
-python-dotenv
+# Dependencies with specific versions to ensure compatibility
+python-dateutil==2.9.0.post0
+certifi==2024.6.2
+urllib3==1.26.18
+Pillow==10.3.0
+
+# Required by onvif-zeep
+zeep==4.2.1
+httpx==0.23.0
